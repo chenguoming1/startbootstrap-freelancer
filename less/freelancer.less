@@ -531,3 +531,33 @@ footer {
 div#maincontent{
 	outline: none;
 }
+
+.donate-section {
+	background-color: @theme-primary;
+	
+	overflow: hidden;
+
+	.row {
+		p {
+			padding: 20px;
+			text-align: center;
+		}
+	}
+
+	div.no-padding-left {
+		@media(min-width: 1025px) {
+			padding-left: 0;
+		}
+	}
+}
+.donate-section-item {
+	padding: 30px;
+	height: 100%;
+	margin-top: 15px;
+	background-color: @gray-darker;
+	text-align: center;
+	img {
+		width: 100%;
+	}
+	height: 650px;
+}
